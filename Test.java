@@ -32,13 +32,12 @@ public class bx extends JFrame{
         l1=new JLabel("LBL");
         t1=new JTextField("NAME: ",5);
         
-        //get man content panel
-        panel=(JPanel)frame.getContentPane();
-       // panel.setLayout(new BoxLayout(panel,BoxLayout.Y_AXIS));
-        
         //sidb box grid layout x1:2 y 5:5
         panel.setLayout(new GridLayout(1,2,5,5));
         panel.add(b1);
+        
+        //add the new panal
+        panel.add(b2);
         
        // panel.add(Box.createRigidArea(new Dimension(20,50)));
         panel.add(b2);
